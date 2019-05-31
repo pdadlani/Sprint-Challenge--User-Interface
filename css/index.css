@@ -100,6 +100,19 @@ p {
     margin: 20px 0px 20px 0px;
 }
 
+.about-header-img {
+    margin: 20px 0px 20px 0px;
+}
+
+.about {
+    border-bottom: 1px dashed black;
+    border-width: 100%;
+}
+
+.about-top div {
+    margin: 0px 20px 0px 20px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -112,6 +125,56 @@ p {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+}
+
+
+.about-top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.about-text {
+    width: 45%;
+}
+
+.about-text img {
+    margin: 30px 0px 10px 0px;
+}
+
+.about-middle {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;   
+}
+
+.about-bottom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px 0px 20px 0px;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+button {
+  width: 130px;
+  height: 40px;
+  margin-top: 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+  font-size: 16px;
 }
 
 .middle-content {
@@ -179,6 +242,14 @@ p {
 
 .middle-content .boxes .box10 {
     background-color: dodgerblue;
+}
+
+.about-middle {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
 }
 
 .bottom-content {
