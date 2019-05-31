@@ -71,6 +71,35 @@ p {
     margin: 0 auto;
 }
 
+
+.home-nav {
+  display: flex;
+  height: 40px;
+  margin: 20px 0px 20px 0px;
+  position: relative;
+  width: 100%;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.home-nav a {
+  text-decoration: none;
+  color: black;
+  margin: 20px 31px 0 0px;
+  font-size: 14px;
+  align-items: center;
+}
+
+.home-nav div {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.home-header-img {
+    margin: 20px 0px 20px 0px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
