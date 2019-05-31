@@ -90,6 +90,10 @@ p {
   align-items: center;
 }
 
+.home-nav a:hover {
+    color: blue;
+}
+
 .home-nav div {
     width: 80%;
     display: flex;
