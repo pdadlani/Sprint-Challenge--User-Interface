@@ -71,6 +71,39 @@ p {
     margin: 0 auto;
 }
 
+
+.home-nav {
+  display: flex;
+  height: 40px;
+  margin: 20px 0px 20px 0px;
+  position: relative;
+  width: 100%;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.home-nav a {
+  text-decoration: none;
+  color: black;
+  margin: 20px 31px 0 0px;
+  font-size: 14px;
+  align-items: center;
+}
+
+.home-nav a:hover {
+    color: blue;
+}
+
+.home-nav div {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.home-header-img {
+    margin: 20px 0px 20px 0px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -83,6 +116,76 @@ p {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+}
+
+.about-header-img {
+    margin: 20px 0px 20px 0px;
+}
+
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center
+    border-bottom: 1px dashed black;
+    border-width: 100%;
+}
+
+.about-top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.about-top div {
+    margin: 0px 20px 0px 20px;
+}
+
+.about-text {
+    width: 45%;
+}
+
+.about-text img {
+    margin: 30px 0px 10px 0px;
+}
+
+.about-middle {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;   
+}
+
+.about-bottom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 30px 0px 20px 0px;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.about-bottom2 div {
+    margin: 30px 20px 20px 20px;
+}
+
+.about-bottom2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+
+button {
+  width: 130px;
+  height: 40px;
+  margin-top: 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+  font-size: 16px;
 }
 
 .middle-content {
@@ -110,6 +213,46 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.middle-content .boxes .box1 {
+    background-color: teal;
+}
+
+.middle-content .boxes .box2 {
+    background-color: gold;
+}
+
+.middle-content .boxes .box3 {
+    background-color: cadetblue;
+}
+
+.middle-content .boxes .box4 {
+    background-color: coral;
+}
+
+.middle-content .boxes .box5 {
+    background-color: crimson;
+}
+
+.middle-content .boxes .box6 {
+    background-color: forestgreen;
+}
+
+.middle-content .boxes .box7 {
+    background-color: darkorchid;
+}
+
+.middle-content .boxes .box8 {
+    background-color: hotpink;
+}
+
+.middle-content .boxes .box9 {
+    background-color: indigo;
+}
+
+.middle-content .boxes .box10 {
+    background-color: dodgerblue;
 }
 
 .bottom-content {
